@@ -1,2 +1,2 @@
-# galeriaPersonagensXmen97X97
+# galeriaPersonagensXmen97
 Projeto da galeria e personagens X-Men Dev em Dobro
