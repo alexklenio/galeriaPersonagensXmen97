@@ -13,86 +13,96 @@
 
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/styles.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
   </head>
   <body>
     <header class="cabecalho">
-      <img class="logo" src="./src/imagens/logo.svg" alt="Logo X-men" />
+      <img class="logo" src="./src/imagens/logo.png" alt="Logo X-men" />
+
+      <ul class="menu">
+        <li>contato</li>
+        <li>github</li>
+        <li>linkedin</li>
+      </ul>
     </header>
 
     <main class="selecao-de-personagens">
       <section class="personagens">
-        <h1 class="titulo">Selecione um personagem</h1>
+        <h1 class="titulo">Sinopse do personagem</h1>
         <ul class="lista-de-personagens">
-          <li class="personagem selecionado" id="ciclope">
+          <li
+            class="personagem selecionado"
+            id="ciclope"
+            data-name="Ciclope"
+            data-description="Após a morte de seu mentor, Charles Xavier, Scott enfrenta o desafio de liderar os X-men e a anciedade de ser Pai em um mundo onde os mutantes ainda são perseguidos."
+          >
             <img
-              class="frame"
               src="./src/imagens/card-ciclope.jpg"
               alt="Personagem Ciclope"
             />
           </li>
-          <li class="personagem" id="jean">
+
+          <li
+            class="personagem"
+            id="jean-grey"
+            data-name="Jean Grey"
+            data-description="Eventos estranhos acontecem. Após o filho de Scott nascer, a verdadeira Jean reaparece e descobre que alem foi clonada, Scott casou e teve um filho com sua clone: Madelyne Pryor."
+          >
             <img
-              class="frame"
               src="./src/imagens/card-jean-grey.jpg"
               alt="Personagem Jean Grey"
             />
           </li>
-          <li class="personagem" id="jubileu">
+
+          <li class="personagem" id="jubileu" data-name="Jubileu">
             <img
-              class="frame"
               src="./src/imagens/card-jubileu.jpg"
               alt="Personagem Jubileu"
             />
           </li>
-          <li class="personagem" id="magneto">
+
+          <li class="personagem" id="magneto" data-name="Magneto">
             <img
-              class="frame"
               src="./src/imagens/card-magneto.jpg"
               alt="Personagem Magneto"
             />
           </li>
-          <li class="personagem" id="bambit">
-            <img
-              class="frame"
-              src="./src/imagens/card-gambit.jpg"
-              alt="Personagem Gambit"
-            />
+
+          <li class="personagem" id="gambit" data-name="Gambit">
+            <img src="./src/imagens/card-gambit.jpg" alt="Personagem Gambit" />
           </li>
-          <li class="personagem" id="tempestade">
+
+          <li class="personagem" id="tempestade" data-name="Tempestade">
             <img
-              class="frame"
               src="./src/imagens/card-tempestade.jpg"
               alt="Personagem Tempestade"
             />
           </li>
-          <li class="personagem" id="vampira">
+
+          <li class="personagem" id="vampira" data-name="Vampira">
             <img
-              class="frame"
               src="./src/imagens/card-vampira.jpg"
               alt="Personagem Vampira"
             />
           </li>
-          <li class="personagem" id="Wolverine">
-            <img
-              class="frame"
-              src="./src/imagens/card-wolverine.jpg"
-              alt="Wolverine"
-            />
+
+          <li class="personagem" id="wolverine" data-name="Wolverine">
+            <img src="./src/imagens/card-wolverine.jpg" alt="Wolverine" />
           </li>
         </ul>
       </section>
 
       <section class="personagem-selecionado">
         <img
-          class="personagem-grande box"
-          src="./src/imagens/card-ciclope.png"
+          class="personagem-grande"
+          src="./src/imagens/card-ciclope.gif"
           alt="Personagem Selecionado"
         />
         <div class="informacoes-personagem">
           <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
-          <p class="descricao-personagem" id="desdricao-personagem">
-            Após perder seu mentor, Charles Xavier, Scott enfrenta o desafio de
-            liderar os X-men e a anciedade de ser Pai em um mundo onde os
+          <p class="descricao-personagem" id="descricao-personagem">
+            Após a morte de seu mentor, Charles Xavier, Scott enfrenta o desafio
+            de liderar os X-men e a anciedade de ser Pai em um mundo onde os
             mutantes ainda são perseguidos.
           </p>
         </div>
