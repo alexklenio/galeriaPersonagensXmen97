@@ -25,14 +25,27 @@ body::before{
     
 }
 
-.cabecalho .menu{
+.cabecalho .menu {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
-    font-size: 25px;
+    gap: 20px;
+    font-size: 20px;
     text-transform: uppercase;
+
+  
+}
+
+.cabecalho .menu li{
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.cabecalho .menu li:hover{
+    background-color: #06418a;
+    color: #ffffff;
+    border-radius: 50px;
 }
 
 .cabecalho .logo {
