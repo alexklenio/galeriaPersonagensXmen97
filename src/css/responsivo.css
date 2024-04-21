@@ -5,6 +5,12 @@
             max-width: 190px;
     }
 
+    .cabecalho .menu{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
     .selecao-de-personagens{
         flex-direction: column-reverse;
         max-width: 430px;
