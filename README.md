@@ -27,3 +27,12 @@ Bem-vindo ao projeto Xmen97! Este é um projeto desenvolvido com **HTML**, **CSS
 - npm
 
 Obrigado por visitar o meu projeto! 😊
+
+<div align="center">
+  <p>
+      <img src="https://img.shields.io/github/languages/count/alexklenio/galeriaPersonagensXmen97"/>
+      <img src="https://img.shields.io/github/repo-size/alexklenio/galeriaPersonagensXmen97"/>
+      <img src="https://img.shields.io/github/last-commit/alexklenio/galeriaPersonagensXmen97"/>
+      <img src="https://img.shields.io/github/issues/alexklenio/galeriaPersonagensXmen97"/>
+  </p> 
+</div>
