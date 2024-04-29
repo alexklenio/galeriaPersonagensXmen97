@@ -24,28 +24,4 @@ Bem-vindo ao projeto Xmen97! Este é um projeto desenvolvido com **HTML**, **CSS
 - Node.js 14 ou superior.
 - npm 
 
-## 🚀 Iniciando o Projeto
-
-1. **Clone o repositório**:
-
-    ```bash
-    git clone https://github.com/seu-usuario/pokedex-app.git
-    ```
-
-2. **Instale as dependências**:
-
-    ```bash
-    cd pokedex-app
-    npm install
-    ```
-
-3. **Inicie o servidor de desenvolvimento**:
-
-    ```bash
-    npm run dev
-    ```
-
-O projeto estará em execução em [http://localhost:3000](http://localhost:3000).
-
-
 Obrigado por visitar o meu projeto! 😊
