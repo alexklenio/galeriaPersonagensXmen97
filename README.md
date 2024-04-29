@@ -8,7 +8,7 @@ Bem-vindo ao projeto Xmen97! Este é um projeto desenvolvido com **HTML**, **CSS
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML**: Linguagem de criação da estrutira da pagina
+- **HTML**: Linguagem de criação da estrutura da pagina
 - **CSS**: Folhas de estilo para criar uma bela interface.
 - **JavaScript**: Interage com o HTML coletando daddos e mudando seu estado.
 
